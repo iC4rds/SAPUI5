@@ -10,3 +10,5 @@ var iVorherigesAlter = iAlter - 1;
 var iNaechtesAlter = iAlter + 1;
 
 alert("letztes Jahr warst du " + iVorherigesAlter + " Jahre alt. Nächstes Jahr bist du " + iNaechtesAlter + " Jahre alt");
+
+test 12345
