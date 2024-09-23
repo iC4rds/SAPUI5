@@ -34,9 +34,9 @@ var oHuman = {
   firstname: "Max",
   lastname: "Mustermann",
   age: 21,
-  introducetoworld: function(){
-    console.log("Hello my name is " + this.firstname +" " + this.lastname);
+  introduceToWorld: function(){
+    console.log("Hello my name is " + this.firstname + " " + this.lastname);
   }
 }
 
-oHuman.introducetoworld();
+oHuman.introduceToWorld();
