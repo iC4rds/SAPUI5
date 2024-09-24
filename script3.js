@@ -1,5 +1,5 @@
 var iCurrentHour;
-iCurrentHour = 19;
+iCurrentHour = 9;
 
 if(iCurrentHour >= 0 && iCurrentHour <= 6){
   alert("night");
@@ -25,8 +25,8 @@ while(j<=100){
 
 var aLetters = ["H", "E", "L", "L", "O"];
 var sResult = "";
-for(var k=0; k < aLetters.length; k++){
-  sResult += aLetters[k];
+for(j = 0; j <= aLetters.length -1; j++){ 
+  sResult += aLetters[j];
 }
 console.log(sResult);
 
