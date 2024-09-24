@@ -13,7 +13,7 @@ if(iCurrentHour >= 0 && iCurrentHour <= 6){
   alert("evening");
 }
 
-for(i=15; i<=20; i++){
+for(var i=15; i<=20; i++){
   console.log(i);
 }
 
@@ -25,8 +25,8 @@ while(j<=100){
 
 var aLetters = ["H", "E", "L", "L", "O"];
 var sResult = "";
-for(var i=0; i< aLetters.length; i++){
-  sResult += aLetters[i];
+for(var k=0; k < aLetters.length; k++){
+  sResult += aLetters[k];
 }
 console.log(sResult);
 
