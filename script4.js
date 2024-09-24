@@ -1,4 +1,4 @@
-debugger;
+//debugger;
 
 function testFunction(message){
   console.log(this);
